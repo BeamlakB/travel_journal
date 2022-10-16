@@ -8,7 +8,7 @@
 body{
   margin: 0;
   padding: 0;
-  background: #cbc5cb;
+  background: #5d595d;
   height: 100vh;
   overflow: hidden;
 }
@@ -64,15 +64,21 @@ body{
   height: 40px;
   padding: 10px;
 }
+.right{
+  position: absolute;
+  top: 50%;
+  left: 150%;
+  transform: translate(-50%, -50%);
+  width: 308px;
+  height: 55px;
+  background: #08127d;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(29, 22, 22, 0.05);
+}
 
-.center form select option{
-     
-  all: unset;
-  font: 16px system-ui;
-  color: #fff;
-  height: 100%;
-  width: 90%;
-  padding: 6px 10px;
-  border: #080913;
-  border-radius: 5;
+.right select{
+  width: 308px;
+  height: 55px;
+  border-radius: 10px;
+
 }
